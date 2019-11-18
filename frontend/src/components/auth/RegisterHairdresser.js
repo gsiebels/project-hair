@@ -2,6 +2,8 @@ import React from 'react'
 import RegisterForm from './RegisterForm'
 import axios from 'axios'
 
+import routes from '../../routes'
+
 class RegisterHairdresser extends React.Component {
   constructor() {
     super()
@@ -27,14 +29,14 @@ class RegisterHairdresser extends React.Component {
   handleSubmit(e) {
     e.preventDefault()
     axios.post('/api/register', this.state.data)
-      .then(() => this.props.history.push('/login'))
+      .then(() => this.props.history.push(routes.LOGIN))
       .catch(err => console.log(err))
     
   }
 
   render() {
     return (
-      <section>
+      <section className="blank">
         <h1 className="center title">Register</h1>
         <RegisterForm
           data={this.state.data}

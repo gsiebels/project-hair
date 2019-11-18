@@ -2,6 +2,7 @@ import React from 'react'
 import LoginForm from './LoginForm'
 import axios from 'axios'
 import Auth from '../../lib/auth'
+import routes from '../../routes'
 
 class LoginHairdresser extends React.Component {
   constructor() {
@@ -27,7 +28,7 @@ class LoginHairdresser extends React.Component {
     axios.post('/api/login', this.state.data)
       .then(res => {
         Auth.setToken(res.data.token)
-        this.props.history.push('/')
+        this.props.history.push(routes.HOME)
       })
       .catch(err => console.log(err)) 
   }
@@ -35,7 +36,7 @@ class LoginHairdresser extends React.Component {
 
   render() {
     return (
-      <section>
+      <section className="blank">
         <h1 className="center title">Login</h1>
         <LoginForm
           data={this.state.data}
