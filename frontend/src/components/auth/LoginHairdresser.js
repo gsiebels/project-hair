@@ -11,7 +11,8 @@ class LoginHairdresser extends React.Component {
     this.state = {
       data: {
         email: '',
-        password: ''      }
+        password: ''     
+      }
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -20,7 +21,6 @@ class LoginHairdresser extends React.Component {
   handleChange(e) {
     const data = { ...this.state.data, [e.target.name]: e.target.value }
     this.setState({ data })
-    console.log(data)
   }
 
   handleSubmit(e) {

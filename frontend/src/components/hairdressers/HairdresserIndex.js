@@ -20,7 +20,7 @@ class HaidresserIndex extends React.Component {
 
   render() {
     return (
-      <section className="blank">
+      <section className="section blank-index">
         <div className="container">
           <div className="columns is-mobile is-multiline">
             {this.state.stylists.map(stylist => (
@@ -35,21 +35,8 @@ class HaidresserIndex extends React.Component {
                 })}
               />
             ))}
-
           </div>
         </div>
-
-        {this.state.openStylist && (
-          <button>profile</button>
-        )}
-
-        {/* {this.state.openStylist && (
-          <div className="container">
-            {this.state.openStylist.gallery.map((pic, _id) => (
-              <img key={_id} src={pic.image} alt={pic.name} />
-            ))}
-          </div>
-        )} */}
       </section>
     )
   }

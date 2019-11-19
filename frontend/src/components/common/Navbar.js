@@ -30,7 +30,9 @@ class Navbar extends React.Component {
       <nav className="navbarTheme navbar">
         <div className="container">
           <div className="navbar-brand">
-            <Link className="navbar-item" to={routes.HOME}>Home</Link>
+            <Link className="navbar-item" to={routes.HOME}>
+              <img className="logo-nav" src="https://i.imgur.com/ODdHVV6.png" />
+            </Link>
             <a 
               className={`navbar-burger ${this.state.navOpen ? 'is-active' : ''}`}
               onClick={this.toggleNavbar}
@@ -43,12 +45,12 @@ class Navbar extends React.Component {
         </div>
         <div className={`navbar-menu ${this.state.navOpen ? 'is-active' : ''}`}>
           <div className="navbar-end"></div>
-          <Link className="navbar-item" to={routes.STYLISTS}>Stylists</Link>
-          <div className="navbar-item">
-            <Link className="navbar-item" to={routes.LOGIN}>Login</Link>
-            <Link className="navbar-item" to={routes.REGISTER}>Register</Link>
-            <a onClick={this.handleLogout} className="navbar-item">Logout</a>
-          </div>
+          <Link className="navbar-font navbar-item" to={routes.STYLISTS}>Stylists</Link>
+          {/* <Link className="navbar-item" to="/stylists/:id">My Profile</Link> */}
+          <Link className="navbar-font navbar-item" to={routes.LOGIN}>Login</Link>
+          <Link className="navbar-font navbar-item" to={routes.REGISTER}>Register</Link>
+          <a onClick={this.handleLogout} className="navbar-font navbar-item">Logout</a>
+        
         </div>
       </nav>
     )

@@ -6,7 +6,7 @@
 }
 
 .navbarTheme {
-  background-color: rgba(197, 179, 161, 0.746);
+  background-color: rgba(71, 71, 71, 0.65);
   box-shadow: 1px 1px 20px rgba(78, 78, 78, 0.692);
 }
 
@@ -25,10 +25,15 @@ body {
 }
 
 .blank {
-  background-color: white;
+  background-color: rgb(68, 68, 68);
   height: 100vh;
   width: 100vw;
-  margin-top: auto;
+}
+
+.blank-index {
+  background-color: rgb(68, 68, 68);
+  height: auto;
+  width: 100vw;
 }
 
 .cards {
@@ -37,10 +42,45 @@ body {
   margin-top: 30px;
 }
 
+.open-card {
+  background-color: rgb(226, 222, 211);
+  margin: 20px 20px 0 20px;
+  width: 300px;
+  height: 310px;
+  border-radius: 0 20px 0 0;
+}
+
+.card-theme {
+  background-color: rgb(226, 222, 211);
+  margin: 20px 20px 0 20px;
+  width: 300px;
+  border-radius: 20px 0 20px 0;
+}
+
 .card-image {
   width: 300px;
   height: 310px;
   object-fit: cover;
+  border-radius: 0 0 20px 0;
+}
+
+.card-button {
+  display: flex;
+  width: 300px;
+  background-color: rgba(45, 20, 77, 0.904);
+  color: white;
+  border-radius: 0 0 0 20px;
+}
+
+.ser-list {
+  font-size: 18px;
+}
+
+.show-images {
+  width: 400px;
+  height: 420px;
+  border-radius: 10px;
+  
 }
 
 .name {
@@ -49,7 +89,26 @@ body {
   padding: 5px;
 }
 
-.card-button {
-  background-color: rgba(173, 173, 173, 0.904);
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    .home-logo {
+     margin-top: 100px;
+     -webkit-filter: drop-shadow(10px 10px 10px rgb(2, 2, 2));
+    filter:drop-shadow(10px 10px 10px rgb(7, 7, 7)); 
+    }
+}
+
+.logo-nav {
+  margin-left: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(75, 75, 75));
+    filter:drop-shadow(5px 5px 5px rgb(37, 37, 37));
+}
+
+.navbar-font {
+  color: rgb(224, 224, 224);
+  font-size: 18px;
 }
 

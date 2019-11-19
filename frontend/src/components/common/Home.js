@@ -10,7 +10,7 @@ class Home extends React.Component {
   render(){
     return (
       <section className="home">
-        <h1>Home</h1>
+        <img className="home-logo" src="https://i.imgur.com/lQKKS66.png" />
       </section>
     )
   }
