@@ -47,9 +47,9 @@ class Navbar extends React.Component {
           <div className="navbar-end"></div>
           <Link className="navbar-font navbar-item" to={routes.STYLISTS}>Stylists</Link>
           {/* <Link className="navbar-item" to="/stylists/:id">My Profile</Link> */}
-          <Link className="navbar-font navbar-item" to={routes.LOGIN}>Login</Link>
-          <Link className="navbar-font navbar-item" to={routes.REGISTER}>Register</Link>
-          <a onClick={this.handleLogout} className="navbar-font navbar-item">Logout</a>
+          {/* <Link className="navbar-font navbar-item" to={routes.LOGIN}>Login</Link> */}
+          {/* <Link className="navbar-font navbar-item" to={routes.REGISTER}>Register</Link> */}
+          {/* <a onClick={this.handleLogout} className="navbar-font navbar-item">Logout</a> */}
         
         </div>
       </nav>

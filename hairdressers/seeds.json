@@ -1,0 +1,317 @@
+[
+{
+  "model": "hairdressers.service",
+  "pk": 1,
+  "fields": {
+    "name": "Cut and Blow-dry",
+    "price": 55
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 2,
+  "fields": {
+    "name": "Men's Haircut",
+    "price": 35
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 3,
+  "fields": {
+    "name": "Half Head HL",
+    "price": 70
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 4,
+  "fields": {
+    "name": "Full Head HL",
+    "price": 90
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 5,
+  "fields": {
+    "name": "Roots Tint",
+    "price": 40
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 6,
+  "fields": {
+    "name": "Full Tint",
+    "price": 50
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 7,
+  "fields": {
+    "name": "Blow-Dry",
+    "price": 35
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 8,
+  "fields": {
+    "name": "Kids Cut",
+    "price": 20
+  }
+},
+{
+  "model": "hairdressers.service",
+  "pk": 9,
+  "fields": {
+    "name": "Hair Up",
+    "price": 60
+  }
+},
+{
+  "model": "hairdressers.gallery",
+  "pk": 1,
+  "fields": {
+    "name": "Blow-Dry",
+    "image": "https://editbrighton.co.uk/wp-content/uploads/2018/11/blowdrybrighton.png"
+  }
+},
+{
+  "model": "hairdressers.gallery",
+  "pk": 2,
+  "fields": {
+    "name": "Men's Haircut",
+    "image": "http://damanhairstyles.com/wp-content/uploads/2019/09/Popular-Mens-Haircuts-2019.jpg"
+  }
+},
+{
+  "model": "hairdressers.gallery",
+  "pk": 3,
+  "fields": {
+    "name": "Men's Haircut",
+    "image": "https://www.menshairstyletrends.com/wp-content/uploads/2017/02/conortaaffehair-textured-crop-for-thick-hair-high-fade-hairstyle-2017-mens-hair-e1492473343366.jpg"
+  }
+},
+{
+  "model": "hairdressers.gallery",
+  "pk": 4,
+  "fields": {
+    "name": "Cut and Blow-dry",
+    "image": "https://webimg.secondhandapp.com/w-i-mgl/5d99bcb671ed7e300159583e"
+  }
+},
+{
+  "model": "hairdressers.gallery",
+  "pk": 5,
+  "fields": {
+    "name": "Highlights",
+    "image": "https://ringmyfashion.com/wp-content/uploads/2019/01/Partial-Highlight.jpg"
+  }
+},
+{
+  "model": "hairdressers.gallery",
+  "pk": 6,
+  "fields": {
+    "name": "Hair Up",
+    "image": "https://www.chilloutbeautytraining.co.uk/wp-content/uploads/hair-ups-500x500.jpg"
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 14,
+  "fields": {
+    "name": "Breanna Hewitt",
+    "profile_pic": "https://images.unsplash.com/photo-1556347961-f9521a88cb8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80",
+    "about": "I just LOVE what I do.",
+    "emergency": true,
+    "services": [
+      7,
+      6,
+      5,
+      1,
+      4,
+      3
+    ],
+    "gallery": [
+      1,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 15,
+  "fields": {
+    "name": "Myles Mayer",
+    "profile_pic": "https://images.unsplash.com/photo-1566802842272-e694af42eb29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80",
+    "about": "Passionate about hair and barbering.\r\nAmazing at graduation and fading. (clippers master)",
+    "emergency": true,
+    "services": [
+      8,
+      2
+    ],
+    "gallery": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 16,
+  "fields": {
+    "name": "Wendy Mccormick",
+    "profile_pic": "https://images.unsplash.com/photo-1561210179-56af788351df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+    "about": "A colourist and hair architect. I have a lot of experiences in weddings and special events hairstyles.",
+    "emergency": false,
+    "services": [
+      3,
+      4,
+      5,
+      6,
+      9
+    ],
+    "gallery": [
+      1,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 17,
+  "fields": {
+    "name": "Thomas Muxworthy",
+    "profile_pic": "https://images.unsplash.com/photo-1541418950054-c12804e149d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+    "about": "Tonsorial artiste",
+    "emergency": false,
+    "services": [
+      9,
+      8,
+      7,
+      6,
+      5,
+      2,
+      1,
+      4,
+      3
+    ],
+    "gallery": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 18,
+  "fields": {
+    "name": "Sebastien Parry",
+    "profile_pic": "https://images.unsplash.com/photo-1569210538317-4d53f92a0e21?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+    "about": "Very experienced and dedicated. I was I multiple major fashion shows. Working alongside fashion and makeup icons.",
+    "emergency": false,
+    "services": [
+      9,
+      7
+    ],
+    "gallery": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 19,
+  "fields": {
+    "name": "Alana Whitney",
+    "profile_pic": "https://images.unsplash.com/photo-1462804993656-fac4ff489837?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+    "about": "Insane colourist.",
+    "emergency": false,
+    "services": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "gallery": []
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 20,
+  "fields": {
+    "name": "Robin French",
+    "profile_pic": "https://images.unsplash.com/photo-1500428596937-31f16f2210fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+    "about": "Hair designer and award winning colourist.",
+    "emergency": false,
+    "services": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ],
+    "gallery": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 21,
+  "fields": {
+    "name": "Loki Dillon",
+    "profile_pic": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
+    "about": "Short hair wizard.",
+    "emergency": false,
+    "services": [
+      2
+    ],
+    "gallery": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "hairdressers.stylist",
+  "pk": 22,
+  "fields": {
+    "name": "Daniela Graham",
+    "profile_pic": "https://images.unsplash.com/photo-1486714941986-f2113c751c97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+    "about": "I love Hair \ud83d\udc96",
+    "emergency": false,
+    "services": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "gallery": []
+  }
+}
+]
