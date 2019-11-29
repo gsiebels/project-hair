@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "buld": "webpack -p",
+    "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve:front": "webpack-dev-server --mode=development",
-    "serve:back": "python manage.py runserver"
+    "serve:back": "python manage.py runserver 4000"
   },
   "author": "",
   "license": "ISC",
