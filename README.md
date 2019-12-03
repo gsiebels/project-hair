@@ -4,7 +4,7 @@ This was the last project assigned by GA, In this project, we had the option to 
 decided to go solo as I wanted to solidify what I have learned in the past 3 months from the back end to frontend and styling.
 
 This is HairHub, a mobile freelance hairdresser site where you can search for individual hairdressers and book them based on 
-the prices and in the future reviews.
+the prices, reviews and image gallery.
 
 ![hairhub-homepage](https://raw.githubusercontent.com/gsiebels/project-hair/master/hairhub-homepage-img.png)
 
