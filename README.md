@@ -22,7 +22,7 @@ This is an ongoing project so please expect future version updates and new featu
 
 ## Deployment
 
-This project is no longer deployed but pleas expected soon. I will be hosting it on heroku.
+The website is deployed on Heroku, you can see it here: https://mobile-hairhub.herokuapp.com/ 
 
 ## Getting Started
 
